@@ -1,0 +1,32 @@
+
+.theme-light {
+  --font-color: #fff;
+  --background-color: #f3f3f3;
+  --display-color: rgb(16, 182, 127);
+  --display-font-color: rgb(144, 8, 222);
+  --button-color: rgb(93, 0, 255);
+  --font-header-color: #373737;
+  --border-radius: 5px;
+  --border-color: #656565;
+  --cell-deafult-color: rgb(92, 196, 196);
+  --cell-flagged-color: rgb(191, 127, 255);
+  --cell-opened-color: rgba(236, 254, 254,0.1);
+  --cell-mined-color: rgba(255, 0, 0, 1) !important;
+  --cell-opacity: 1;
+}
+
+.theme-dark {
+  --background-color: #1a0018;
+  --display-color: rgb(15, 128, 90);
+  --display-font-color: rgb(144, 8, 222);
+  --button-color: rgb(168, 5, 205);
+  --font-color: #c3c3c3;
+  --font-header-color: #b0b0b0;
+  --border-radius: 5px;
+  --border-color: #a6a6a6;
+  --cell-deafult-color: rgb(4, 75, 150);
+  --cell-flagged-color: rgb(191, 127, 255);
+  --cell-opened-color: rgba(0, 55, 100, 0.3);
+  --cell-mined-color: rgba(255, 0, 0, 1) !important;
+  --cell-opacity: 0.7;
+}
